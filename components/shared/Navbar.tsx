@@ -59,10 +59,10 @@ export default function Navbar() {
           </svg>
         </button>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-6">
           <button
             type="button"
-            className="inline-flex justify-between items-center h-12 rounded border border-(--color-primary) px-6 whitespace-nowrap md:text-lg font-semibold bg-(--color-primary) text-(--color-white) cursor-pointer"
+            className="inline-flex justify-between items-center  rounded border border-(--color-primary) px-4 py-2 whitespace-nowrap md:text-lg font-semibold bg-(--color-primary) text-(--color-white) cursor-pointer"
           >
             <span className="inline-flex justify-center items-center w-7 h-7 rounded-full me-3 bg-(--color-purple-10) text-(--color-primary)">
               <svg
@@ -106,12 +106,12 @@ export default function Navbar() {
             </svg>
           </button>
 
-          <button
-            type="button"
-            className="inline-flex justify-center items-center h-12 rounded px-6 whitespace-nowrap md:text-lg font-semibold bg-(--color-secondary) text-(--color-white) cursor-pointer"
+          <Link
+            href="#"
+            className="inline-flex justify-center items-center rounded px-4 py-2 whitespace-nowrap md:text-lg font-semibold bg-(--color-secondary) text-(--color-white) cursor-pointer"
           >
             Take Assessment
-          </button>
+          </Link>
         </div>
       </div>
 
