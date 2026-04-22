@@ -33,24 +33,23 @@
   --color-secondary-10: rgba(240, 67, 84, 0.1);
   --color-gray-30: rgba(196, 196, 196, 0.3);
 
+  /* ── Shadows ── */
+  --shadow-navbar: 0px 0px 2px rgba(0, 0, 0, 0.25);
+
   /* ── Font ── */
   --font-sans: var(--font-nunito-sans);
   --font-heading: var(--font-nunito);
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background: var(--color-background);
-  color: var(--color-text-main);
   font-family: var(--font-sans), Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  color: var(--color-text-main);
+}
+
+p {
+  line-height: 1.5;
 }
 
 h1,
