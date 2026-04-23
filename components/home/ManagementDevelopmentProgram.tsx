@@ -21,7 +21,7 @@ export default function ManagementDevelopmentProgram() {
           alt="Management development program session"
           width={556}
           height={600}
-          className="object-cover lg:h-[690px] h-[232px] lg:w-[48%] rounded-[8px]"
+          className="object-cover lg:h-[690px] h-[232px] w-full lg:w-[48%] rounded-[8px]"
         />
 
         <div className="lg:w-[48%] text-white">
