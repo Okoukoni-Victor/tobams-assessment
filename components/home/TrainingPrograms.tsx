@@ -65,7 +65,7 @@ const programs: TrainingProgram[] = [
 
 export default function TrainingPrograms() {
   return (
-    <section className="flex flex-col gap-6 md:gap-15 lg:gap-30 mb-5 md:mb-12 lg:mb-16">
+    <section className="flex flex-col gap-6 md:gap-15 lg:gap-30 mb-5 md:mb-12 lg:mb-16 pb-12 bg-white">
       {programs.map((program) => (
         <div
           key={program.id}
