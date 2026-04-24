@@ -5,6 +5,7 @@ import ManagementDevelopmentProgram from "@/components/home/ManagementDevelopmen
 import TransformationHub from "@/components/home/TransformationHub";
 import TrainingTheConsultant from "@/components/home/TrainingTheConsultant";
 import CTABanner from "@/components/home/CTABanner";
+import Testimonials from "@/components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <TransformationHub />
       <TrainingTheConsultant />
       <CTABanner />
+      <Testimonials />
     </main>
   );
 }

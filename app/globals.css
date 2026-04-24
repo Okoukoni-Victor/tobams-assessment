@@ -41,10 +41,6 @@
   --font-heading: var(--font-nunito);
 }
 
-html {
-  tab-size: 4;
-}
-
 body {
   background: var(--color-background);
   font-family: var(--font-sans), Arial, sans-serif;
