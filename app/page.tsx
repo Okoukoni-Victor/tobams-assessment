@@ -4,6 +4,7 @@ import TrainingPrograms from "@/components/home/TrainingPrograms";
 import ManagementDevelopmentProgram from "@/components/home/ManagementDevelopmentProgram";
 import TransformationHub from "@/components/home/TransformationHub";
 import TrainingTheConsultant from "@/components/home/TrainingTheConsultant";
+import CTABanner from "@/components/home/CTABanner";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ManagementDevelopmentProgram />
       <TransformationHub />
       <TrainingTheConsultant />
+      <CTABanner />
     </main>
   );
 }
