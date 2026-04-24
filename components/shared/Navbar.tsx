@@ -25,7 +25,7 @@ const navLinks = [
 export default function Navbar() {
   return (
     <header className="shadow-(--shadow-navbar) bg-(--color-white)">
-      <div className="flex items-center justify-between w-full px-6 lg:px-16 border-b border-(--color-purple-10)">
+      <div className="flex items-center justify-between w-full px-6 lg:px-16 py-[24px] border-b border-(--color-purple-10)">
         <Link href="/">
           <Image
             src="/tobams-logo.png"
